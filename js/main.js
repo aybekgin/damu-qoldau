@@ -223,7 +223,7 @@ function generateWhatsAppMessage(data, form) {
         minute: '2-digit'
     });
     
-    let message = `🚀 *Новая заявка с сайта АЕМ Консалтинг*\n\n`;
+    let message = `🚀 *Новая заявка с сайта DamuQoldau.kz*\n\n`;
     message += `📋 *Тип формы:* ${formType}\n`;
     message += `📅 *Дата:* ${timestamp}\n\n`;
     
@@ -244,7 +244,7 @@ function generateWhatsAppMessage(data, form) {
     }
     
     message += `\n💰 *Интерес:* Получение грантов и субсидий`;
-    message += `\n🌐 *Источник:* Сайт АЕМ Консалтинг`;
+    message += `\n🌐 *Источник:* Сайт DamuQoldau.kz`;
     
     return message;
 }
